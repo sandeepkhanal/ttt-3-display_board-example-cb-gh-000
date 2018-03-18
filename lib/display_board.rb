@@ -1,3 +1,10 @@
 def display_board
-  puts"A Tic Tac Toe Board"#Define a method display_board that prints a 3x3 Tic Tac Toe Board
+  a="   "
+  puts a+"|"+a+"|"+a
+  11.times{print "-"}
+  puts"\n"
+  puts a+"|"+a+"|"+a
+  11.times{print "-"}
+  puts"\n"
+  puts a+"|"+a+"|"+a
 end
