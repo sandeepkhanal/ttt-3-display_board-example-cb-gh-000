@@ -4,7 +4,7 @@ def display_board
   11.times{print "-"}
   puts"\n"
   puts a+"|"+a+"|"+a
-  puts"\n"
   11.times{print "-"}
+  puts"\n"
   puts a+"|"+a+"|"+a
 end
